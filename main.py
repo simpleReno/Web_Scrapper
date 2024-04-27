@@ -3,7 +3,7 @@
 import sys
 import os
 import subprocess
-import beautifulsoup4 as bs4
+from bs4 import BeautifulSoup
 import aiohttp
 import asyncio
 import pandas

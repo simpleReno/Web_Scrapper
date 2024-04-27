@@ -3,6 +3,9 @@
 import sys
 import os
 import subprocess
+from bs4 import BeautifulSoup
+import aiohttp
+import asyncio
 import pandas
 
 # Importing the modules
